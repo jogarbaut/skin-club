@@ -1,3 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+/* Variables */
+:root {
+  --c-primary: #30415d;
+  --c-dark: #565656;
+  --c-light: #d7cec7;
+  --c-secondary: #c09f80;
+  --f-main: 'Raleway';
+}
+
+body {
+  font-family: var(--f-main);
+  margin: 0;
+  padding: 0;
+  line-height: 1.7;
+}
+
+.navbar {
+  background-color: var(--c-primary);
+}
+
 .vh-35 {
   height: 35vh;
 }
